@@ -1,0 +1,53 @@
+{
+  "site": {
+    "title": "BAEL",
+    "description": "ስለ ዌብ ልማት፣ ዲዛይን እና ራው ዌብ የሚያተኩር ብሩታሊስት ብሎግ።",
+    "skipToContent": "ወደ ዋናው ይዘት ዝለል"
+  },
+  "nav": {
+    "home": "መነሻ",
+    "about": "ስለ",
+    "categories": "ምድቦች",
+    "tags": "መለያዎች",
+    "darkMode": "የጨለማ ሁነታ",
+    "lightMode": "የብርሃን ሁነታ"
+  },
+  "home": {
+    "heading": "የቅርብ ጊዜ ልጥፎች",
+    "searchPlaceholder": "ልጥፎችን ይፈልጉ...",
+    "noResults": "ምንም ልጥፍ አልተገኘም።",
+    "allTags": "ሁሉም መለያዎች",
+    "allCategories": "ሁሉም ምድቦች"
+  },
+  "post": {
+    "publishedOn": "የታተመበት ቀን",
+    "by": "በ",
+    "tags": "መለያዎች",
+    "category": "ምድብ",
+    "share": "አጋራ",
+    "copyLink": "ሊንክ ቅዳ",
+    "linkCopied": "ሊንክ ተቀድቷል!",
+    "backToBlog": "ወደ ብሎግ ተመለስ",
+    "readMore": "ተጨማሪ አንብብ"
+  },
+  "about": {
+    "heading": "ስለ",
+    "bio": "ዌብን በራው መልክ የሚቃኝ ገንቢ፣ ዲዛይነር እና ጸሐፊ። በNuxt፣ Vue እና ብሩታሊስት ውበት ነገሮችን እገነባለሁ።",
+    "skills": "ችሎታዎች",
+    "skillsList": ["Vue.js", "Nuxt", "TypeScript", "CSS Grid", "ብሩታሊስት ዲዛይን", "ተደራሽነት", "Jamstack", "Markdown"],
+    "contact": "አድራሻ"
+  },
+  "category": {
+    "heading": "ምድብ: {category}",
+    "empty": "በዚህ ምድብ ውስጥ ምንም ልጥፍ የለም።"
+  },
+  "tag": {
+    "heading": "መለያ: {tag}",
+    "empty": "በዚህ መለያ ምንም ልጥፍ የለም።"
+  },
+  "footer": {
+    "builtWith": "በNuxt 4 እና ብሩታሊስት ውበት የተገነባ።",
+    "license": "MIT ፈቃድ",
+    "source": "የምንጭ ኮድ"
+  }
+}

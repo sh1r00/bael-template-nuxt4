@@ -1,0 +1,53 @@
+{
+  "site": {
+    "title": "BAEL",
+    "description": "A brutalist blog about web development, design, and the raw web.",
+    "skipToContent": "Skip to main content"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "categories": "Categories",
+    "tags": "Tags",
+    "darkMode": "Toggle dark mode",
+    "lightMode": "Toggle light mode"
+  },
+  "home": {
+    "heading": "Latest Posts",
+    "searchPlaceholder": "Search posts...",
+    "noResults": "No posts found matching your search.",
+    "allTags": "All Tags",
+    "allCategories": "All Categories"
+  },
+  "post": {
+    "publishedOn": "Published on",
+    "by": "by",
+    "tags": "Tags",
+    "category": "Category",
+    "share": "Share",
+    "copyLink": "Copy link",
+    "linkCopied": "Link copied!",
+    "backToBlog": "Back to blog",
+    "readMore": "Read more"
+  },
+  "about": {
+    "heading": "About",
+    "bio": "Developer, designer, and writer exploring the raw web. I build things with Nuxt, Vue, and brutalist aesthetics.",
+    "skills": "Skills",
+    "skillsList": ["Vue.js", "Nuxt", "TypeScript", "CSS Grid", "Brutalist Design", "Accessibility", "Jamstack", "Markdown"],
+    "contact": "Contact"
+  },
+  "category": {
+    "heading": "Category: {category}",
+    "empty": "No posts in this category yet."
+  },
+  "tag": {
+    "heading": "Tag: {tag}",
+    "empty": "No posts with this tag yet."
+  },
+  "footer": {
+    "builtWith": "Built with Nuxt 4 and brutalist aesthetics.",
+    "license": "MIT License",
+    "source": "Source code"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "site": {
+    "title": "BAEL",
+    "description": "Un blog brutalista sobre desarrollo web, diseño y la web en crudo.",
+    "skipToContent": "Saltar al contenido principal"
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca",
+    "categories": "Categorías",
+    "tags": "Etiquetas",
+    "darkMode": "Modo oscuro",
+    "lightMode": "Modo claro"
+  },
+  "home": {
+    "heading": "Últimas Publicaciones",
+    "searchPlaceholder": "Buscar publicaciones...",
+    "noResults": "No se encontraron publicaciones.",
+    "allTags": "Todas las Etiquetas",
+    "allCategories": "Todas las Categorías"
+  },
+  "post": {
+    "publishedOn": "Publicado el",
+    "by": "por",
+    "tags": "Etiquetas",
+    "category": "Categoría",
+    "share": "Compartir",
+    "copyLink": "Copiar enlace",
+    "linkCopied": "Enlace copiado!",
+    "backToBlog": "Volver al blog",
+    "readMore": "Leer más"
+  },
+  "about": {
+    "heading": "Acerca",
+    "bio": "Desarrollador, diseñador y escritor explorando la web en crudo. Construyo cosas con Nuxt, Vue y estética brutalista.",
+    "skills": "Habilidades",
+    "skillsList": ["Vue.js", "Nuxt", "TypeScript", "CSS Grid", "Diseño Brutalista", "Accesibilidad", "Jamstack", "Markdown"],
+    "contact": "Contacto"
+  },
+  "category": {
+    "heading": "Categoría: {category}",
+    "empty": "No hay publicaciones en esta categoría aún."
+  },
+  "tag": {
+    "heading": "Etiqueta: {tag}",
+    "empty": "No hay publicaciones con esta etiqueta aún."
+  },
+  "footer": {
+    "builtWith": "Construido con Nuxt 4 y estética brutalista.",
+    "license": "Licencia MIT",
+    "source": "Código fuente"
+  }
+}
