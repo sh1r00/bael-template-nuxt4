@@ -92,7 +92,7 @@ useHead({
   <article v-if="post" class="max-w-3xl mx-auto animate-fade-in-up">
     <!-- Back link -->
     <NuxtLink
-      to="localePath('/')"
+      :to="localePath('/')"
       class="inline-flex items-center gap-1 font-mono text-sm text-text-muted no-underline hover:text-primary transition-colors mb-8"
     >
       <span aria-hidden="true">←</span>

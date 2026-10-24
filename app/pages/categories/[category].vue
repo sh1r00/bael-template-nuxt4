@@ -21,7 +21,7 @@ useHead({
 <template>
   <div class="animate-fade-in-up">
     <NuxtLink
-      to="localePath('/')"
+      :to="localePath('/')"
       class="inline-flex items-center gap-1 font-mono text-sm text-text-muted no-underline hover:text-primary transition-colors mb-6"
     >
       <span aria-hidden="true">←</span>
