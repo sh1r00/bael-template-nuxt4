@@ -3,10 +3,7 @@ const { t } = useI18n()
 import { useDarkModeStore } from '~/stores/darkMode'
 const darkMode = useDarkModeStore()
 
-// Set initial class on client
-if (import.meta.client) {
-  document.documentElement.classList.toggle('dark', darkMode.isDark)
-}
+onMounted(() => darkMode.initialize())
 </script>
 
 <template>
