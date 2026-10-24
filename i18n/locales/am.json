@@ -34,7 +34,16 @@
     "heading": "ስለ",
     "bio": "ዌብን በራው መልክ የሚቃኝ ገንቢ፣ ዲዛይነር እና ጸሐፊ። በNuxt፣ Vue እና ብሩታሊስት ውበት ነገሮችን እገነባለሁ።",
     "skills": "ችሎታዎች",
-    "skillsList": ["Vue.js", "Nuxt", "TypeScript", "CSS Grid", "ብሩታሊስት ዲዛይን", "ተደራሽነት", "Jamstack", "Markdown"],
+    "skillsList": [
+      "Vue.js",
+      "Nuxt",
+      "TypeScript",
+      "CSS Grid",
+      "ብሩታሊስት ዲዛይን",
+      "ተደራሽነት",
+      "Jamstack",
+      "Markdown"
+    ],
     "contact": "አድራሻ"
   },
   "category": {
@@ -49,5 +58,11 @@
     "builtWith": "በNuxt 4 እና ብሩታሊስት ውበት የተገነባ።",
     "license": "MIT ፈቃድ",
     "source": "የምንጭ ኮድ"
+  },
+  "pwa": {
+    "heading": "ይህን መተግበሪያ ይጫኑ",
+    "description": "ከመስመር ውጭ ተደራሽነት እና ፈጣን ተሞክሮ ለማግኘት ይህን መተግበሪያ ይጫኑ።",
+    "install": "ይጫኑ",
+    "dismiss": "ይዝለሉ"
   }
 }

@@ -1,4 +1,5 @@
 <script setup lang="ts">
+const { t } = useI18n()
 import { useI18n } from 'vue-i18n'
 const { locale, locales } = useI18n()
 const switchLocalePath = useSwitchLocalePath()
@@ -20,7 +21,7 @@ const navItems = [
   >
     <!-- Skip to content (appears on focus) -->
     <a href="#main-content" class="skip-link">
-      {{ $t('site.skipToContent') }}
+      {{ t('site.skipToContent') }}
     </a>
 
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
@@ -46,7 +47,7 @@ const navItems = [
             class="font-mono text-sm text-text-secondary no-underline hover:text-primary transition-colors uppercase tracking-wide"
             :class="{ 'text-primary border-b-2 border-primary': route.path.startsWith(item.to) && item.to !== '/' || (route.path === '/' && item.to === '/') }"
           >
-            {{ $t(item.label) }}
+            {{ t(item.label) }}
           </NuxtLink>
         </nav>
 
@@ -87,7 +88,7 @@ const navItems = [
         :to="localePath(item.to)"
         class="flex-shrink-0 px-4 py-2.5 font-mono text-xs text-text-secondary no-underline hover:text-primary hover:bg-surface-alt transition-colors uppercase tracking-wide"
       >
-        {{ $t(item.label) }}
+        {{ t(item.label) }}
       </NuxtLink>
     </nav>
   </header>

@@ -34,7 +34,16 @@
     "heading": "About",
     "bio": "Developer, designer, and writer exploring the raw web. I build things with Nuxt, Vue, and brutalist aesthetics.",
     "skills": "Skills",
-    "skillsList": ["Vue.js", "Nuxt", "TypeScript", "CSS Grid", "Brutalist Design", "Accessibility", "Jamstack", "Markdown"],
+    "skillsList": [
+      "Vue.js",
+      "Nuxt",
+      "TypeScript",
+      "CSS Grid",
+      "Brutalist Design",
+      "Accessibility",
+      "Jamstack",
+      "Markdown"
+    ],
     "contact": "Contact"
   },
   "category": {
@@ -49,5 +58,11 @@
     "builtWith": "Built with Nuxt 4 and brutalist aesthetics.",
     "license": "MIT License",
     "source": "Source code"
+  },
+  "pwa": {
+    "heading": "Install this app",
+    "description": "Install this app for offline access and a faster, app-like experience.",
+    "install": "Install",
+    "dismiss": "Dismiss"
   }
 }

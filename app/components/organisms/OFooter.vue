@@ -1,4 +1,5 @@
 <script setup lang="ts">
+const { t } = useI18n()
 const vueVersion = '3.5'
 const nuxtVersion = '4'
 
@@ -18,14 +19,14 @@ const currentYear = new Date().getFullYear()
             [BAEL]
           </p>
           <p class="text-text-muted text-sm leading-relaxed">
-            {{ $t('site.description') }}
+            {{ t('site.description') }}
           </p>
         </div>
 
         <!-- Tech stack -->
         <div>
           <p class="font-mono text-xs text-primary uppercase tracking-wider mb-2">
-            {{ $t('footer.builtWith') }}
+            {{ t('footer.builtWith') }}
           </p>
           <div class="flex flex-wrap gap-2 font-mono text-xs text-text-muted">
             <span class="px-2 py-1 border border-border">Nuxt {{ nuxtVersion }}</span>
@@ -41,7 +42,7 @@ const currentYear = new Date().getFullYear()
             &copy; {{ currentYear }} BAEL
           </p>
           <p class="font-mono text-xs text-text-muted mt-1">
-            {{ $t('footer.license') }}
+            {{ t('footer.license') }}
           </p>
         </div>
       </div>
@@ -49,7 +50,7 @@ const currentYear = new Date().getFullYear()
       <!-- Bottom bar -->
       <div class="mt-6 pt-4 border-t-2 border-border flex flex-col sm:flex-row items-center justify-between gap-2">
         <p class="font-mono text-xs text-text-muted">
-          {{ $t('footer.builtWith') }}
+          {{ t('footer.builtWith') }}
         </p>
         <p class="font-mono text-xs text-text-muted">
           <span aria-hidden="true">$</span> echo "stay raw"

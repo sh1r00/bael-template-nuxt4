@@ -1,4 +1,5 @@
 <script setup lang="ts">
+const { t } = useI18n()
 const localePath = useLocalePath()
 import type { BlogPost } from '~/data/blogPosts'
 
@@ -64,7 +65,7 @@ function formatDate(dateStr: string): string {
 
       <!-- Read more -->
       <div class="mt-4 flex items-center gap-2 font-mono text-xs uppercase text-primary font-bold">
-        <span>{{ $t('post.readMore') }}</span>
+        <span>{{ t('post.readMore') }}</span>
         <span aria-hidden="true">→</span>
       </div>
     </NuxtLink>
