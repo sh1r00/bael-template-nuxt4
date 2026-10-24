@@ -149,4 +149,5 @@ export default defineNuxtConfig({
     },
   },
   nitro: { prerender: { failOnError: false } },
+  routeRules: { '/': { redirect: '/en/' } },
 })
